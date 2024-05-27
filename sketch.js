@@ -91,9 +91,9 @@ function drawSkeleton() {//偵測出各點並畫線
       }
       partA = pose.keypoints[[0]
         if(partA.score > 0.1){
-        fill("#ff0000)
+        fill("#ff0000")
         ellipse(partA.x,partA.y,50)
-             fill("#ffffff)
+             fill("#ffffff")
       }
       
         
